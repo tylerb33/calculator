@@ -3,30 +3,33 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Calculator</title>
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 <body>
-<main>
-	<header>
-		<h1>Calculator</h1>
-	</header>
-	<form>
-		First Value: <br>
-		<input type="number" name="first-value"><br>
-		Second Value: <br>
-		<input type="number" name="second-value"><br>
-		Operator: <br>
-		<button type="button" name="add" id="add">+</button>
-		<button type="button" name="subtract" id="subtract-button">-</button>
-		<button type="button" name="multiply" id="multiply-button">*</button>
-		<button type="button" name="divide" id="divide-button">/</button><br><br>
-		<button type="button" name="calculate" id="calculate-button">CALCULATE!</button>
-	</form>
+		<header>
+			<h1>Calculator</h1>
+		</header>
 
-	<h3>Result</h3>
-	<div id="result-output">
-	</div>
+<div id="container">
+	<main>
+		<form>
+			First Value: <br>
+			<input type="number" name="first-value" id="first-value"><br>
+			Second Value: <br>
+			<input type="number" name="second-value" id="second-value"><br>
+			Operator: <br>
+			<button type="button" name="subtract" id="subtract-button">-</button>
+			<button type="button" name="add" id="addition-button">+</button>
+			<button type="button" name="multiply" id="multiply-button">*</button>
+			<button type="button" name="divide" id="divide-button">/</button><br><br>
+		</form>
 
-</main>
-	
+
+	</main>
+</div>
+		<h3>Result</h3>
+		<div id="output">
+		</div>
+	<script type="text/javascript" src="calculator.js"></script>
 </body>
 </html>
