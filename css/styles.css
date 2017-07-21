@@ -1,0 +1,32 @@
+div#container {
+	width: 50%;
+	background-color: gray;
+	margin: 0 auto;
+}
+
+h2 {
+	color: green;
+	font-size: 7em;
+	text-align: center;
+	margin-top: 0;
+}
+
+h1, h3 {
+	text-align: center;
+	color: red;
+}
+
+h3 {
+	font-size: 2em;
+}
+
+main {
+	width: 50%;
+	margin: 0 auto;
+}
+
+form {
+	text-align: center;
+	width: 50%;
+	margin: 0 auto;
+}
